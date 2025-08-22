@@ -9,7 +9,7 @@ jobs:
   keepalive:
     runs-on: ubuntu-latest
     env:
-      URL: ${{ secrets.HF_SPACE }}
+      URL: "https://itudou0-new_space.hf.space/"
       MAX_ATTEMPTS: 3
       BASE_SLEEP: 5
     steps:
